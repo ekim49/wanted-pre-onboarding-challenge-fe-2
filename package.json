@@ -1,0 +1,32 @@
+{
+	"name": "jsdoc-practice",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "webpack",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ekim49/wanted-pre-onboarding-challenge-fe-2.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ekim49/wanted-pre-onboarding-challenge-fe-2/issues"
+	},
+	"homepage": "https://ekim49.github.io/wanted-pre-onboarding-challenge-fe-ts.",
+	"devDependencies": {
+		"jsdoc": "^4.0.0"
+	},
+	"dependencies": {
+		"gh-pages": "^5.0.0",
+		"jsdoc-webpack-plugin": "^0.3.0",
+		"webpack": "^5.75.0",
+		"webpack-cli": "^5.0.1"
+	}
+}
