@@ -1,6 +1,6 @@
 # 원티드 프리온보딩 2월 챌린지: TypeScript
 
-> [과제 배포 페이지]()
+> [과제 배포 페이지](https://ekim49.github.io/wanted-pre-onboarding-challenge-fe-ts/index.html)
 
 <br/>
 

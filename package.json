@@ -6,6 +6,7 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "webpack",
+		"docs": "jsdoc -c jsdoc.json",
 		"predeploy": "npm run docs",
 		"deploy": "gh-pages -d docs"
 	},
@@ -19,11 +20,12 @@
 	"bugs": {
 		"url": "https://github.com/ekim49/wanted-pre-onboarding-challenge-fe-2/issues"
 	},
-	"homepage": "https://ekim49.github.io/wanted-pre-onboarding-challenge-fe-ts.",
+	"homepage": "https://ekim49.github.io/wanted-pre-onboarding-challenge-fe-ts/index.html",
 	"devDependencies": {
 		"jsdoc": "^4.0.0"
 	},
 	"dependencies": {
+		"docdash": "^2.0.1",
 		"gh-pages": "^5.0.0",
 		"jsdoc-webpack-plugin": "^0.3.0",
 		"webpack": "^5.75.0",
