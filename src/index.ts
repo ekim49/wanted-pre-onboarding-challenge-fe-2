@@ -3,6 +3,18 @@
  * @author ekim49
  * @see <a href="https://github.com/ekim49/wanted-pre-onboarding-challenge-ts" >https://github.com/ekim49/wanted-pre-onboarding-challenge-ts </a>
  */
+interface ITodo {
+	id: number;
+	content: string;
+	isDone: boolean;
+	category: string[];
+	tags?: string[];
+}
+
+interface ITag {
+	id: number;
+	title: string;
+}
 
 /**
  * Todo 객체
